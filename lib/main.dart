@@ -1,8 +1,9 @@
+import 'package:calc/screens/wrapper/wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:math_expressions/math_expressions.dart';
 
 void main() => runApp(MaterialApp(
-  home: Calculator(),
+  home: Wrapper(), //Calculator(),
   debugShowCheckedModeBanner: false,
 ));
 
